@@ -5,15 +5,27 @@ body {
 
 }
 
+
+:root {
+  font-size: 62.5%;
+
+}
+
+
 #hero {
-  width: 592px;
-  margin: 0 auto 72px;
+  width: 59.2rem;
+  margin: 0 auto 7.2rem;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-size: 49px;
-  line-height: 56px;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
   font-weight: normal;
 }
 
@@ -27,41 +39,44 @@ a {
   color: #B1D7FE;
 }
 
-p, #foster {
+p,
+#foster {
   color: #7D7987;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 
 p span {
   color: #1473A1;
 }
 
-#balls {
-  width: 50px;
-  height: 50px;
+#balls {  
+  width: 5.0rem;
+  height: 5.0rem;
   position: fixed;
-  bottom: 0px;
+  bottom: 0rem;
   right: 0;
 }
 
 #hero img {
-  width: 410px;
-  height: 320px;
-  /* margin-bottom: 25px; */
+  width: 41rem;
+  height: 32rem;
+
 }
 
+
 #foster a+a {
-  margin-left: 28px;
+  margin-left: 2.8rem;
 }
 
 #foster #line {
-  width: 568px;
-  height: 0px;
-  margin: 0 auto 8px;
-  border: 1px solid #ECEFF2
+  width: 56.8rem;
+  height: 0rem;
+  margin: 0 auto 0.8rem;
+  border: 1px solid #ebdddd
 }
 
 #foster {
-  margin-bottom: 33px;
+ 
+  margin-bottom: 3.3rem;
 }
